@@ -31,6 +31,11 @@ export enum API_CODES {
     GLOBAL_SUCCESS = 1001,
     SINGLE_SUCCESS = 1000
 }
+
+export enum API_ROUTES {
+    CALENDAR = 'calendar/v1'
+}
+
 export const MAIN_USER_KEY = 'USER_KEYS';
 export const SECURE_SESSION_STORAGE_KEY = 'SECURE';
 export const MAILBOX_PASSWORD_KEY = 'proton:mailbox_pwd';
