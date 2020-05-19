@@ -23,6 +23,7 @@ export const USERNAME_PLACEHOLDER = 'john.doe';
 export const PASSWORD_PLACEHOLDER = '*********';
 
 export enum APPS {
+    PROTONACCOUNT = 'proton-account',
     PROTONMAIL = 'proton-mail',
     PROTONMAIL_SETTINGS = 'proton-mail-settings',
     PROTONCONTACTS = 'proton-contacts',
